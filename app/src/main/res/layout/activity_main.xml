@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/llFooter"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvOne"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_red"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/tvTwo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_red"
+            android:gravity="center"
+            android:text="2"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/tvThree"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_red"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/tvFour"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_red"
+            android:gravity="center"
+            android:text="4"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/tvFive"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_red"
+            android:gravity="center"
+            android:text="5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <com.mindorks.placeholderview.SwipeDirectionalView
+        android:id="@+id/swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
